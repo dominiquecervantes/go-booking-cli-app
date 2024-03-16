@@ -81,3 +81,5 @@ func greetUsers(confName string, confTickets int, remainingTickets uint) {
 	fmt.Printf("We have a total of %v tickets and there are %v still available!\n", confTickets, remainingTickets)
 	fmt.Println("Get your tickets here to attend!")
 }
+
+// this is a test to see if i can push code to github
