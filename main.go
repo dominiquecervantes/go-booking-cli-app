@@ -58,6 +58,7 @@ func main() {
 				fmt.Println("Our conference is booked out. Come back next year. ")
 
 			}
+			break
 		} else {
 
 			if !isValidName {
