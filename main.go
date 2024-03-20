@@ -56,23 +56,26 @@ func main() {
 			if remainingTickets == 0 {
 				// end program
 				fmt.Println("Our conference is booked out. Come back next year. ")
-				break
+
 			}
 		} else {
 
 			if !isValidName {
-				fmt.Println("The first name and/or last name you entered is too short.")
+				fmt.Println("The first or last name you entered is too short.")
 			}
 
 			if !isValidEmail {
-				fmt.Println("The email you entered does not contain the '@' symbol.")
+				fmt.Println("The email address you entered does not contain the '@' sign.")
 			}
 
 			if !isValidTicketNumber {
-				fmt.Println("The number of tickets you entered is invalid. ")
+				fmt.Println("Number of tickets you entered is invalid.")
+			}
+
+			{
+				fmt.Println("Your data input is invalid, try again.")
 			}
 		}
-
 	}
 }
 
